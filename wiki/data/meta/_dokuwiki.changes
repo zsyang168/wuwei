@@ -1,0 +1,65 @@
+1543562877	61.160.89.114	C	start	yzs	创建		29
+1543563020	61.160.89.114	D	start	yzs	移除		-29
+1543563068	61.160.89.114	C	start	yzs	创建		36
+1543563772	61.160.89.114	E	start	yzs			-25
+1543565074	61.160.89.114	E	start	yzs			5
+1543565457	61.160.89.114	C	welcome	yzs	创建		36
+1543566823	61.160.89.114	C	技术	yzs	创建		12
+1543567256	61.160.89.114	C	题库	yzs	创建		13
+1543567296	61.160.89.114	E	题库	yzs			26
+1543567436	61.160.89.114	E	题库	yzs			38
+1543568262	61.160.89.114	C	knowledge	yzs	创建		3
+1543568356	61.160.89.114	E	knowledge	yzs			32
+1543568363	61.160.89.114	C	wiki:namespaces	yzs	创建		3
+1543568190	127.0.0.1	E	knowledge:jishu		外部编辑		2429
+1543568746	61.160.89.114	E	knowledge:jishu	yzs			16
+1543569299	127.0.0.1	E	knowledge:jiaoshu		外部编辑		15399
+1543569415	61.160.89.114	E	knowledge:jiaoshu	yzs			10
+1543569741	127.0.0.1	E	knowledge:jiaoshu		外部编辑		15
+1543569909	61.160.89.114	E	knowledge:jiaoshu	yzs	[酵素的应用：] 		4
+1543568887	127.0.0.1	E	knowledge:jishu		外部编辑		28
+1543571372	61.160.89.114	E	knowledge:jishu	yzs	[解决方法：] 		18
+1543578929	127.0.0.1	E	test		外部编辑		0
+1543579144	122.97.74.131	E	test	yzs			17
+1543579211	122.97.74.131	E	test	yzs			21
+1543579310	122.97.74.131	E	welcome	yzs			2
+1543571681	127.0.0.1	E	knowledge:jiaoshu		外部编辑		-3
+1543579836	122.97.74.131	E	knowledge:jiaoshu	yzs	[酵素的制作：] 		7
+1543580532	122.97.74.131	E	test	yzs			1
+1543580773	122.97.74.131	E	knowledge:jishu	yzs			57
+1543580793	122.97.74.131	E	knowledge:jishu	yzs			-57
+1543588650	122.97.74.131	C	knowledge:daodejing	yzs	创建		0
+1543588666	122.97.74.131	C	knowledge:daodejing	yzs	创建		0
+1543635534	49.95.33.72	E	welcome	yzs			214
+1543635570	49.95.33.72	E	welcome	yzs			4
+1543636118	49.95.33.72	E	welcome	yzs			-21
+1543636488	49.95.33.72	E	welcome	yzs			33
+1543636509	49.95.33.72	E	welcome	yzs			-49
+1543636884	49.95.33.72	E	welcome	yzs			16
+1543637262	127.0.0.1	E	product:caomi		外部编辑		0
+1543637541	49.95.33.72	E	product:caomi	yzs			404
+1543637765	49.95.33.72	E	product:caomi	yzs			135
+1543637814	49.95.33.72	E	product:caomi	yzs			-4
+1543641179	49.95.33.72	E	product:caomi	yzs			7
+1543644097	49.95.33.72	E	welcome	yzs			-1
+1543637287	127.0.0.1	E	product:chaye		外部编辑		0
+1543729002	122.97.73.149	E	product:chaye	yzs			326
+1543637262	127.0.0.1	E	product:huangdouzhipin		外部编辑		0
+1543729441	122.97.73.149	E	product:huangdouzhipin	yzs			558
+1543729612	122.97.73.149	E	product:chaye	yzs			129
+1543637262	127.0.0.1	E	product:huangdou		外部编辑		0
+1543729746	122.97.73.149	E	product:huangdou	yzs			722
+1543730109	122.97.73.149	C	product:momiji	yzs	创建		0
+1543730274	122.97.73.149	E	product:momiji	yzs			786
+1543588713	127.0.0.1	E	gongxiu:daodejing		外部编辑		21
+1543730681	122.97.73.149	E	gongxiu:daodejing	yzs			159
+1543580793	127.0.0.1	E	knowledge:gengzhongddj		外部编辑		2491
+1543730860	122.97.73.149	E	knowledge:gengzhongddj	yzs			-518
+1543731400	122.97.73.149	E	welcome	yzs			45
+1543734216	122.97.73.149	E	gongxiu:daodejing	yzs			-4
+1543739319	122.97.73.149	E	knowledge:jishu	yzs	[现存问题：] 		20
+1543739481	122.97.73.149	E	knowledge:jiaoshu	yzs			42
+1543739522	122.97.73.149	E	knowledge:jiaoshu	yzs	[酵素] 		-22
+1543739588	122.97.73.149	E	knowledge:jiaoshu	yzs	[酵素] 		7
+1543739625	122.97.73.149	E	knowledge:jiaoshu	yzs	[酵素] 		11
+1543739828	122.97.73.149	E	knowledge:jiaoshu	yzs			18
