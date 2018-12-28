@@ -139,7 +139,7 @@ return [
         // 标签库标签结束标记
         'taglib_end'   => '}',
 		//开启模板布局
-		'layout_on'	   => true,
+		'layout_on'	   => false,
 		//使用layuot文件
 		'layout_name'  => 'layout',
 		'layout_item'  => '{__CONTENT__}',
