@@ -1,3 +1,13 @@
+	*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	width:100%;
+	margin:0 auto;
+	height:51px;
+}
 /*-- index --*/
 .index{
 	background:url(../img/index.jpg) no-repeat center;
@@ -12,8 +22,6 @@
 }
 .index ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #5FB878;
 }
@@ -24,14 +32,54 @@
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 32px;
+  padding: 12px 32px;
   text-decoration: none;
+  font-size:18px;
 }
 .index li a:hover {
   color: rgb(216, 252, 11);
 }
 /*搜索框*/
+.index .search {
+	width:51px;
+	float: right;
+	height: 51px;
+	background: #5FB878;
+}
 
+
+.index .search input {
+}
+
+.index .search input:focus {
+	width: 300px;
+}
+
+.index .search button {
+	background: white;
+	top: 14px;
+	right: 0;
+}
+
+/*横幅*/
+.index .banner{
+	width:100%;
+	margin:0 auto;
+  	padding: 180px 32px;
+}
+
+.index .banner .title{
+  font-size:60px;
+  color:white;
+  letter-spacing:10px;
+  text-align:center;
+}
+
+.index .banner .couplet{
+  font-size:48px;
+  text-align:center;
+  letter-spacing:5px;
+}
 /*-- product --*/
 .bg-product{
 	background:url(../img/product.jpg) no-repeat center;
