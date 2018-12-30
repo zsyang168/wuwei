@@ -1,6 +1,17 @@
-	*{
-    margin: 0;
-    padding: 0;
+  /*common*/
+.title{
+  width:100%;
+  margin:0 auto;
+  padding: 3% 0;
+  height:51px;
+}
+
+.title p{
+  font-size:60px;
+  color:black;
+  letter-spacing:10px;
+  line-height:80px;
+  text-align:center;
 }
 
 .container{
@@ -12,13 +23,15 @@
 .index{
 	background:url(../img/index.jpg) no-repeat center;
 	background-size:cover;
-  width: 100%;
+  width: 95%;
+  margin:0 auto;
+  padding: 0;
   height: 900px;
 }
 /*导航栏*/
 .index .nav {
   float:left;
-  width:50%;
+  width:100%;
 }
 .index ul{
     list-style-type: none;
@@ -39,39 +52,19 @@
 .index li a:hover {
   color: rgb(216, 252, 11);
 }
-/*搜索框*/
-.index .search {
-	width:51px;
-	float: right;
-	height: 51px;
-	background: #5FB878;
-}
-
-
-.index .search input {
-}
-
-.index .search input:focus {
-	width: 300px;
-}
-
-.index .search button {
-	background: white;
-	top: 14px;
-	right: 0;
-}
 
 /*横幅*/
 .index .banner{
 	width:100%;
 	margin:0 auto;
-  	padding: 180px 32px;
+  padding: 180px 32px;
 }
 
 .index .banner .title{
   font-size:60px;
   color:white;
   letter-spacing:10px;
+  line-height:80px;
   text-align:center;
 }
 
@@ -79,21 +72,51 @@
   font-size:48px;
   text-align:center;
   letter-spacing:5px;
+  line-height:60px;
 }
 /*-- product --*/
-.bg-product{
+.product{
 	background:url(../img/product.jpg) no-repeat center;
 	background-size:cover;
-  width: 100%;
+  width: 95%;
+  margin:0 auto;
+  padding: 0;
   height: 900px;
 }
 
+.product .plist{
+  width: 85%;
+  margin:0 auto;
+  padding: 20px;
+  height: 500px;
+
+}
+.product .plist .list-item{
+  border:5px solid rgb(219, 217, 217);
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  width: 25%;
+  height: 400px;
+  float: left;
+}
+.product .plist .list-item img{display: table-cell; vertical-align: middle;width: 100%;height: 80%;}
+.product .plist .list-item p{
+  font-size:24px;
+  color:black;
+  padding: 10px;
+  letter-spacing:10px;
+  line-height:20px;
+  text-align:left;}
 /*-- actice --*/
-.bg-active{
+.active{
 	background:url(../img/active.jpg) no-repeat center;
 	background-size:cover;
-  width: 100%;
+  width: 95%;
+  margin:0 auto;
+  padding: 0;
   height: 900px;
 }
 
 /*颜色*/
+#test1 img{min-width: 100%; height: 898px;}
