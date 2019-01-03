@@ -1,79 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>无为自然农园</title>
   <link rel="shortcut icon" href="static/img/web_logo.ico" type="image/x-icon" />
-  <script type="text/javascript" src="static/layui/layui.js"></script>
-  <script type="text/javascript" src="static/js/index.js"></script>
-  <link rel="stylesheet" type="text/css" href="static/layui/css/layui.css">
-	<link rel="stylesheet" type="text/css" href="static/css/index.css" media="all">
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
 </head>
-
 <body>
-  <!-- index -->
-<div class="index">
-	<div class="container">
-	  <div class="nav">
-		<ul>
-			<li><a href="">首页</a></li>
-			<li><a href="#product">产品中心</a></li>
-			<li><a href="#active">活动足迹</a></li>
-			<li><a href="">关于我们</a></li>
-		</ul>
-	  </div>
-  </div>
-  <div class="banner">
-		<p class="title">无为自然农园</p>
-	  <p class="couplet">无为共建一片净土</p>
-	  <p class="couplet">农园种出无量爱心</p>
-  </div>
+
+<!-- index start-->
+<div class="my-index">
+<!--nav start-->
+<div>
+<ul class="am-nav my-nav-ul am-nav-pills">
+	  <li><a class="my-nav-a"href="">首页</a></li>
+	  <li><a class="my-nav-a"href="#product">产品中心</a></li>
+	  <li><a class="my-nav-a"href="#news">活动足迹</a></li>
+	  <li><a class="my-nav-a"href="#about">关于我们</a></li>
+</ul>
 </div>
-  <!-- product -->
-<div class="product" id="product">
-	 <div class="title">
-				<p>无为有机产品</p>
-	 </div>
-	 <div class="plist">
-			<div class="list-item">
-				<img src="static/img/caomi.jpg">
-				<p>糙米</p>
-			</div>
-			<div class="list-item">
-					<img src="static/img/caomi.jpg">
-					<p>糙米</p>
-			</div>
-			<div class="list-item">
-					<img src="static/img/caomi.jpg">
-					<p>糙米</p>
-			</div>
+<!--nav end-->
+
+<!--banner start-->
+<div class="my-banner">
+	 <p class="my-banner-title">无为自然农园</p>
+	 <p class="my-banner-couplet">无为共建一片净土</p>
+	 <p class="my-banner-couplet">农园种出无量爱心</p>
+</div>
+</div>
+<!--banner end-->
+<!-- index end-->
+
+<!--product start-->
+<div class="my-product" id="product">
+<div class="my-product-title">
+	<p class="my-product-title-p">无为有机产品</p>
+</div>
+<div>
+<ul data-am-widget="gallery" class="am-gallery am-avg-sm-2
+am-avg-md-3 am-avg-lg-4 am-gallery-bordered" data-am-gallery="{pureview: true}" >
+	<li>
+		<div class="am-gallery-item">
+		<a href="assets/img/index.jpg" class="">
+		<img src="static/img/黄豆.jpg"  alt="黄豆"/>
+		<h3 class="am-gallery-title">黄豆</h3>
+		</a>
 		</div>
+	</li>
+	<li>
+		<div class="am-gallery-item">
+		<a href="static/img/糙米.jpg" class="">
+		<img src="static/img/糙米.jpg"  alt="糙米"/>
+		<h3 class="am-gallery-title">糙米</h3>
+		</a>
+		</div>
+	</li>
+	<li>
+		<div class="am-gallery-item">
+		<a href="static/img/豆油.jpg" class="">
+		<img src="static/img/豆油.jpg"  alt="豆油"/>
+		<h3 class="am-gallery-title">豆油</h3>
+		</a>
+		</div>
+	</li>
+	<li>
+		<div class="am-gallery-item">
+		<a href="static/img/碧螺春绿茶.jpg" class="">
+		<img src="static/img/碧螺春绿茶.jpg"  alt="碧螺春绿茶"/>
+		<h3 class="am-gallery-title">碧螺春绿茶</h3>
+		</a>
+		</div>
+	</li>
+	<li>
+		<div class="am-gallery-item">
+		<a href="static/img/元磨机.jpg" class="">
+		<img src="static/img/元磨机.jpg"  alt="元磨机"/>
+		<h3 class="am-gallery-title">元磨机</h3>
+		</a>
+		</div>
+	</li>
+</ul>
+</div>
+</div>
+<!--product end-->
 
+<!--news start-->
+<div class="my-news" id="news">
+<div class="my-news-title">
+	<p class="my-news-title-p">活动足迹</p>
+</div>
+</div>
+<!--news end-->
+
+<!--about start-->
+<!--about end-->
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+	<a href="#top" title="回到顶部">
+	<span class="am-gotop-title">回到顶部</span>
+	<i class="am-gotop-icon am-icon-chevron-up"></i>
+	</a>
 </div>
 
-<!-- active -->
-<div class="active" id="active">
-		<div class="title">
-				<p>活动足迹</p>
-	 </div>
-	 <div style="width: 50%;height: 500px;margin: 0 auto;">
-	 <div class="layui-carousel" id="test1">
-			<div carousel-item>
-					<div>
-							<img src="static/img/caomi.jpg">
-							<p>糙米</p>
-					</div>
-				<div>条目2</div>
-				<div>条目3</div>
-				<div>条目4</div>
-				<div>条目5</div>
-			</div>
-	</div>
-	</div>>
-</div>
-
-		
-	
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
 </body>
 </html>

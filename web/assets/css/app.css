@@ -1,0 +1,92 @@
+/* Write your styles */
+.my-index{
+  background:url(../img/index.jpg) no-repeat center;
+  background-size:cover;
+  width: 100%;
+  margin:0 auto;
+  padding: 0;
+  height: 900px;
+}
+
+
+.my-banner{
+    width:100%;
+    margin:0 auto;
+ 	padding: 180px 32px;
+}
+
+.my-banner-title{
+   font-size:60px;
+   color:white;
+   letter-spacing:10px;
+   line-height:80px;
+   text-align:center;
+ }
+
+.my-banner-couplet{
+   font-size:48px;
+   text-align:center;
+   letter-spacing:5px;
+   line-height:60px;
+}
+
+
+
+
+.my-nav-ul {
+  background-color: #5FB878;
+  width:50%;
+}
+.my-nav-a {color: white;}
+
+
+.my-product{
+  background:url(../img/product.jpg) no-repeat center;
+  background-size:cover;
+  width: 100%;
+  margin:0 auto;
+  padding: 0;
+  height: 900px;
+}
+.my-product-title{
+  width:100%;
+  margin:0 auto;
+  padding: 20px 0;
+  height:120px;
+}
+
+.my-product-title-p{
+  font-size:60px;
+  color:black;
+  letter-spacing:10px;
+  line-height:80px;
+  text-align:center;
+}
+
+.my-news{
+  background:url(../img/active.jpg) no-repeat center;
+  background-size:cover;
+  width: 100%;
+  margin:0 auto;
+  padding: 0;
+  height: 900px;
+}
+
+.my-news-title{
+  width:100%;
+  margin:0 auto;
+  padding: 20px 0;
+  height:120px;
+}
+
+.my-news-title-p{
+  font-size:60px;
+  color:black;
+  letter-spacing:10px;
+  line-height:80px;
+  text-align:center;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+	.my-nav-ul{width:100%;}
+}
