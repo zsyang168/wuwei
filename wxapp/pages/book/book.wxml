@@ -1,9 +1,15 @@
 <!--pages/book/book.wxml-->
+<image class="book-img" src="../../images/book-bg.png"></image>
 <view class="book-text">
-  <text class="book-title">道德经读书会</text>
+  <text class="book-content">
+  人法地，地法天，天法道，道法自然。热爱自然，顺天之道，和谐圆满，本期读书会我们将一起共学《道德经》，开启我们的高等智慧。
+  时间：每周日晚6:00~8:30。  
+  地点：紫金英郡36-202。
+  </text>
 </view>
-<view class="book-text">
-  <text class="book-content">人法地，地法天，天法道，道法自然。</text>
+
+<view>
+
 </view>
 
 <view>
