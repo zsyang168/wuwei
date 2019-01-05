@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "iih",
+    "pages/bill/bill",
+    "pages/granary/granary",
+    "pages/reading/reading",
+    "pages/news/news"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "tabBar": {
+     "color": "#a9b7b7",
+     "selectedColor": "#11cd6e",
+     "borderStyle": "black",
+     "list": [
+    {
+       "pagePath": "pages/index/index",
+       "text": "首页"  
+    },
+    {
+        "pagePath": "pages/bill/bill",
+        "text": "账单"  
+    },
+    {
+        "pagePath": "pages/granary/granary",
+        "text": "粮仓"  
+    },
+    {
+      "pagePath": "pages/news/news",
+      "text": "动态"
+    },
+    {
+      "pagePath": "pages/reading/reading",
+      "text": "读书会"
+    }
+  ]  
+}
+
+}
