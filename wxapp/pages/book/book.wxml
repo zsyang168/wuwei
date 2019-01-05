@@ -1,0 +1,13 @@
+<!--pages/book/book.wxml-->
+<view class="book-text">
+  <text class="book-title">道德经读书会</text>
+</view>
+<view class="book-text">
+  <text class="book-content">人法地，地法天，天法道，道法自然。</text>
+</view>
+
+<view>
+
+</view>
+
+

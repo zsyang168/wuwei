@@ -1,0 +1,7 @@
+/* pages/book/book.wxss */
+.book-text{text-align: center}
+.book-title{font-size: 32rpx;}
+.book-content{
+  font-size: 24rpx;
+  padding: 20rpx 20rpx;
+  }

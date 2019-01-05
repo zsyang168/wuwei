@@ -2,11 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "iih",
     "pages/bill/bill",
     "pages/granary/granary",
-    "pages/reading/reading",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/book/book"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,33 +13,41 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  
   "tabBar": {
-     "color": "#a9b7b7",
-     "selectedColor": "#11cd6e",
-     "borderStyle": "black",
-     "list": [
-    {
-       "pagePath": "pages/index/index",
-       "text": "首页"  
-    },
-    {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/home-s.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/bill-s.png",
+        "iconPath": "images/bill.png",
         "pagePath": "pages/bill/bill",
-        "text": "账单"  
-    },
-    {
+        "text": "账单"
+      },
+      {
+        "selectedIconPath": "images/granary-s.png",
+        "iconPath": "images/granary.png",
         "pagePath": "pages/granary/granary",
-        "text": "粮仓"  
-    },
-    {
-      "pagePath": "pages/news/news",
-      "text": "动态"
-    },
-    {
-      "pagePath": "pages/reading/reading",
-      "text": "读书会"
-    }
-  ]  
-}
-
+        "text": "粮仓"
+      },
+      {
+        "selectedIconPath": "images/news-s.png",
+        "iconPath": "images/news.png",
+        "pagePath": "pages/news/news",
+        "text": "动态"
+      },
+      {
+        "selectedIconPath": "images/book-s.png",
+        "iconPath": "images/book.png",
+        "pagePath": "pages/book/book",
+        "text": "读书会"
+      }
+    ]
+  }
 }
